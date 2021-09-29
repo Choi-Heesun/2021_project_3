@@ -13,7 +13,18 @@ $(document).ready(function(){
     /* 메뉴 토글 */
     $(".menu_click").click(function(){
         $(".header_menu").stop().slideToggle();
-    })
+    });
+
+    $(window).resize(function(){
+        if(window.innerWidth >=599){
+            $(".header_menu").show();
+        }
+    });
+   $(window).resize(function(){
+        if(window.innerWidth <=1000){
+            $(".header_menu").hide();
+        }
+    });
     
 
     /* 메인 이미지 슬라이더 */
