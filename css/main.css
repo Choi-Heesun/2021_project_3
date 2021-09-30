@@ -912,7 +912,7 @@ a:hover > .play_icon::after {
     flex-direction: column;
 }
 
-.mail_box input[type="mail"] {
+.mail_box input[type="email"] {
     margin:0;
     background: none; 
     border:none;
@@ -929,8 +929,8 @@ a:hover > .play_icon::after {
     text-align: center;
 }
 
-.mail_box input[type="mail"]:focus {outline: none}
-.mail_box input[type="mail"]::placeholder {
+.mail_box input[type="email"]:focus {outline: none}
+.mail_box input[type="email"]::placeholder {
     font-size: 20px; 
     color: purple; 
     font-weight: bold;
@@ -2028,7 +2028,7 @@ footer {
         
     }
     
-    .mail_box input[type="mail"] {
+    .mail_box input[type="email"] {
         margin: 0;
         margin-right: 5px ;
         background: none; 
@@ -2042,8 +2042,8 @@ footer {
         
     }
     
-    .mail_box input[type="mail"]:focus {outline: none}
-    .mail_box input[type="mail"]::placeholder {font-size: 20px; color: purple; font-weight: bold}
+    .mail_box input[type="email"]:focus {outline: none}
+    .mail_box input[type="email"]::placeholder {font-size: 20px; color: purple; font-weight: bold}
     .mail_box button {
         margin: 0;
         margin-left: 15px;

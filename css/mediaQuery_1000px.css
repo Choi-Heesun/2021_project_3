@@ -956,7 +956,7 @@
         
     }
     
-    .mail_box input[type="mail"] {
+    .mail_box input[type="email"] {
         margin: 0;
         margin-right: 5px ;
         background: none; 
@@ -970,8 +970,8 @@
         
     }
     
-    .mail_box input[type="mail"]:focus {outline: none}
-    .mail_box input[type="mail"]::placeholder {font-size: 20px; color: purple; font-weight: bold}
+    .mail_box input[type="email"]:focus {outline: none}
+    .mail_box input[type="email"]::placeholder {font-size: 20px; color: purple; font-weight: bold}
     .mail_box button {
         margin: 0;
         margin-left: 15px;
